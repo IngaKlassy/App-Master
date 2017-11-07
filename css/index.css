@@ -95,6 +95,20 @@ body {
   color: white;
 }
 
+#appMaster {
+	font-size: 1.7em;
+	padding-top: 6%;
+
+}
+#fafa1 {
+	position: fixed;
+	right: 3%;
+	color: #c0c0c0;
+	font-size: 1.7em;
+}
+#fafa2 {
+	visibility: hidden;
+}
 div.stars {
   margin-left: 3%;
   width: 270px;
@@ -109,7 +123,7 @@ div.stars {
 
 
 .stars p {
-  padding-top: 10%;
+  padding-top: 5%;
   font-size: 16px;
   font-style: italic;
 }
@@ -327,3 +341,31 @@ span.psw {
 #fixed {
 	position: fixed;
 }
+
+#reset {
+    background-color: #e8dee0;
+    color: #404040;
+     padding: 14px 20px;
+      margin: 8px 0;
+    border: none;
+    cursor: pointer; 
+
+
+ }
+
+ #suggestTerm {
+	 padding-top:15%;
+	 font-size: 120%;
+	 font-style: oblique;
+
+ }
+
+#t {
+	padding-bottom: 3%;
+	font-weight: bold;
+	font-style: normal;
+
+	color: #7d3c76; 
+}
+
+

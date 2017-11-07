@@ -17,17 +17,15 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    <a class="active" href="index1.html"><i class="fa fa-home" id="fafa"></i></a>   
+      
+    <a class="active" href="index1.html"><i class="fa fa-home" id="fafa"></i></a> 
+    <a href="help.html"><i class="fa fa-question" id="fafa1"></i></a> 
+    
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  </div>
+   
+    <!--
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="help.html" id="help">Help <span class="sr-only">(current)</span></a></li>
       </ul>
@@ -38,11 +36,10 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
      
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>  </div></nav>
+-->
+
 </nav>
-
-
 
 
 <div class="glossary">
@@ -106,11 +103,45 @@
 
   </div>	
 
+<form action="" id="suggestTerm">
+	Not seeing what you are looking for? Suggest a term for us to define:<br>
+  <input type="text" id="suggest">
+  <br>
+ <br>
+
+
+
+<button type="button" class="btn btn-info btn-lg" id="reset" data-toggle="modal" data-target="#myModal">Submit</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">AppMaster</h4>
+        </div>
+        <div class="modal-body">
+		<p><span id="t">Thank you for your suggestion!</span> Your term has been placed in queue for our team to define next. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</form> 
 
 
   </div>
 
-
+	<script type = "text/javascript">
+		function submit1() {
+	alert("Thank you!");
+		}
+	</script>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
