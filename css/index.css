@@ -321,10 +321,15 @@ span.psw {
 	padding-top: 20%;
 }
 
+
+#appHelp {
+        padding-bottom: 20%;
+        padding-top: 5%;
+}
 #appName h1 {
 	padding-bottom: 3%;
 	font-weight: bold;
-}
+i}
 
 .termName {
 	font-size: 140%;
