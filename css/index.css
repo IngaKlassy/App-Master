@@ -1,8 +1,11 @@
 html {
 	height: 100%;
+	width: 100%;
 }
 body {
 	padding-bottom: 10%;
+	margin: 0 auto;
+
 }
 #body {
 	padding-bottom: 70px;
@@ -22,11 +25,13 @@ body {
 
 
 #term { 
+	padding-top: 25%;
 	width: 100%;
 	position: relative; 
 }
 
 #term h3 {
+	padding-top: 20%;
 	position: absolute;
 	top: 10%;
 	left: 15%;
@@ -34,6 +39,7 @@ body {
 }
 
 #term h1 {
+	padding-top: 15%;
 	position: absolute;
 	top: 35%;
 	left: 27%;
@@ -43,6 +49,7 @@ body {
 #app {
 	position:relative;
 	padding-bottom: 5%;
+	padding-top: 5%;
 }
 
 .fa {
@@ -61,11 +68,20 @@ body {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  width: 100%;
+  border-style: inset;
+  border-width: 5px;
+  border-radius: 10px; 
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+   width: 100%;
+    border-style: inset;
+  border-width: 5px;
+  border-radius: 10px; 
+
 }
 
 .fa-youtube {
@@ -76,18 +92,31 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+   width: 100%;
+    border-style: inset;
+  border-width: 5px;
+  border-radius: 10px; 
+
 }
 
 .fa-snapchat-ghost {
   background: #fffc00;
-  color: white;
- 
+  color: white; 
+  width: 100%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   border-style: inset;
+  border-width: 5px;
+  border-radius: 10px; 
 }
 
 .fa-pinterest {
   background: #cb2027;
   color: white;
+   width: 100%;
+    border-style: inset;
+  border-width: 5px;
+  border-radius: 10px; 
+
 }
 
 .fa-reddit {
@@ -110,6 +139,7 @@ body {
 	visibility: hidden;
 }
 div.stars {
+  padding-bottom: 20%;
   margin-left: 3%;
   width: 270px;
   display: inline-block;
@@ -160,29 +190,30 @@ label.star:before {
 
 
 
-#term1 { 
+#term1 {
+        padding-top: 30%;	
 	width: 100%;
-	height:55%;
+	height:78%;
 	position: relative; 
 }
 
 #term1 h3 {
 	position: absolute;
-	top: 5%;
+	top: 25%;
 	left: 10%;
 	width: 100%
 }
 
 #term1 h1 {
 	position: absolute;
-	top: 15%;
+	top: 36%;
 	left: 10%;
 	width: 100%
 }
 
 #term1 p {
 	position: absolute;
-	top: 40%;
+	top: 52%;
 	left:10%;
 	width: 80%;
 }
@@ -193,6 +224,7 @@ label.star:before {
 }
 
 #other {
+	padding-top: 8%;
 	margin-left: 5%;
 }
 input[type=text], input[type=password] {
@@ -332,15 +364,23 @@ span.psw {
 i}
 
 .termName {
-	font-size: 140%;
+	font-size: 110%;
 	font-style: oblique;
 	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+.glossary h1 {
+	padding-bottom: 8%;
+	color: #7d3c76; 
 }
 
 .glossary {
 	padding-top: 20%;
 	padding-left: 3%;
 	padding-right: 3%;
+	padding-bottom: 10%;
 }
 
 #fixed {
@@ -373,4 +413,13 @@ i}
 	color: #7d3c76; 
 }
 
+.listOfApps {
+	padding-bottom: 20%;
+}
 
+.ghost-button {
+	font-size: 150%;
+	 font-style: oblique;
+	 color: #303030; 
+	 font-weight: bold;
+ }
