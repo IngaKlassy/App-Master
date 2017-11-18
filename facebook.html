@@ -17,8 +17,17 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
 
-     <a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a> 
-			<a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
+		<!--  Home Button Icon
+		<a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a>
+		-->
+		<!-- Navbar back, Appmaster, and Help Icon-->
+		<!-- back button -->
+		<button style="position:absolute; left:15px; top:9px;" onclick="goBack()">
+		<img src="images/backButton.png" alt="Go Back" width="12px">
+		</button>
+		<a class="navbar-brand navbar-left" href="index.html" id="appMaster">AppMaster</a>
+		<a href="index.html"><i class="fa fa-home" id="fafa2"></i></a>
+		<a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -27,12 +36,30 @@
 
   <div class="container-fluid" id="appName">
 	  <h1>Facebook</h1>
-	  <p><span class="termName">Friend</span> is someone you are connected to on Facebook.</p>
-	  <p><span class="termName">Friending</span> is the act of sending someone a friend request; all friendships must be confirmed by both people in order for the friendship to be official on Facebook.</p>
-	  <p><span class="termName">News Feed</span> is continuous stream of updates about your friends' activities on and off Facebook. It appears on your Home Page. </p>
-	  <p><span class="termName">Poke</span> is a casual gesture that means "I'm thinking of you". The person you poke receives the poke on her Home page when she logs in and has the choice to poke yo back. Only she (and not her friends) is aware that you poked her.</p>
-	  <p><span class="termName">Status Update</span> is a short post you share on Facebook talking about what you are doing, thinking, or feeling at the moment. People update their status about everything from what they're eating to sharing memories about a loved one to advocating for a particular political position.</p>
-	  <p><span class="termName">Timeline</span> is your Profile Page. It contains all your posts, your photos and videos, a list of your friends, your favourite activities and interests, and any biographical info you've chosen o share. This is where your friends can leave you messages and where you can update the world with anything you feel like sharing.</p>
+
+		<p><a href="#demo6" class="ghost-button" data-toggle="collapse"><span class="termName">Friend</span></a>
+	 	<div id="demo6" class="collapse">
+ 		is someone you are connected to on Facebook. </div></p>
+
+		<p><a href="#demo7" class="ghost-button" data-toggle="collapse"><span class="termName">Friending</span></a>
+	  <div id="demo7" class="collapse">
+		is the act of sending someone a friend request; all friendships must be confirmed by both people in order for the friendship to be official on Facebook. </div></p>
+
+			<p><a href="#demo14" class="ghost-button" data-toggle="collapse"><span class="termName">News Feed</span></a>
+  		<div id="demo14" class="collapse">
+  		is continuous stream of updates about your friends' activities on and off Facebook. It appears on your Home Page. </div></p>
+
+		<p><a href="#demo17" class="ghost-button" data-toggle="collapse"><span class="termName">Poke</span></a>
+		<div id="demo17" class="collapse">
+		is a casual gesture that means "I'm thinking of you". The person you poke receives the poke on her Home page when she logs in and has the choice to poke yo back. Only she (and not her friends) is aware that you poked her. </div></p>
+
+		<p><a href="#demo23" class="ghost-button" data-toggle="collapse"><span class="termName">Status Update</span></a>
+		<div id="demo23" class="collapse">
+		is a short post you share on Facebook talking about what you are doing, thinking, or feeling at the moment. People update their status about everything from what they're eating to sharing memories about a loved one to advocating for a particular political position. </div></p>
+
+		<p><a href="#demo25" class="ghost-button" data-toggle="collapse"><span class="termName">Timeline</span></a>
+		<div id="demo25" class="collapse">
+		is your Profile Page. It contains all your posts, your photos and videos, a list of your friends, your favourite activities and interests, and any biographical info you've chosen o share. This is where your friends can leave you messages and where you can update the world with anything you feel like sharing. </div></p>
 
 
 

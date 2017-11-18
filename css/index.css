@@ -127,14 +127,15 @@ body {
 #appMaster {
 	font-size: 1.7em;
 	padding-top: 6%;
-
+	padding-left: 35%
 }
 #fafa1 {
 	position: fixed;
 	right: 4%;
-	padding-top: 2.7%;
+	padding-top: 2.1%;
 	color: #c0c0c0;
 	font-size: 1.7em;
+	width: 14%
 }
 #fafa2 {
 	visibility: hidden;

@@ -17,8 +17,17 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
 
-      <a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a>
-       <a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
+			<!--  Home Button Icon
+			<a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a>
+			-->
+			<!-- Navbar back, Appmaster, and Help Icon-->
+			<!-- back button -->
+			<button style="position:absolute; left:15px; top:9px;" onclick="goBack()">
+			<img src="images/backButton.png" alt="Go Back" width="12px">
+			</button>
+			<a class="navbar-brand navbar-left" href="index.html" id="appMaster">AppMaster</a>
+			<a href="index.html"><i class="fa fa-home" id="fafa2"></i></a>
+			<a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -27,14 +36,26 @@
 
   <div class="container-fluid" id="appName">
 	  <h1>Twitter</h1>
-	  <p><span class="termName">Celebrity Syndrome</span> refers to a situation in which a non-celebrity mistakenly believes he or she is a celebrity. Users with celebrity syndrome will not follow a significant number of Twitter users.</p>
-	  <p><span class="termName">Daily Twitamin</span> means a tweet that contains useful knowledge that is easy to take in and remember. It is a "daily vitamin" for Twitterers.</p>
-	  <p><span class="termName">Drunktwittering</span> is the act of posting on Twitter while intoxicated. </p>
-	  <p><span class="termName">Hashtag</span> is a way of organizing your updates for Twitter search engines. Users prefix a message with a community-driven hashtag to enable others to discover relevant posts. One commonly used hashtag is #followfriday where users network by providing the names of their favourite people to follow on Twitter. </p>
-	  <p><span class="termName">Retweet</span>, abbreviated as RT, is used on Twitter to show you are tweeting something that was posted by another user. The format is RT @username where username is the Twitter name of the person you are retwitting. </p>
 
+		<p><a href="#demo1" class="ghost-button" data-toggle="collapse"><span class="termName">Celebrity Syndrome</span></a>
+		<div id="demo1" class="collapse">
+	  refers to a situation in which a non-celebrity mistakenly believes he or she is a celebrity. Users with celebrity syndrome will not follow a significant number of Twitter users.</div></p>
 
+		<p><a href="#demo2" class="ghost-button" data-toggle="collapse"><span class="termName">Daily Twitamin</span></a>
+		<div id="demo2" class="collapse">
+		means a tweet that contains useful knowledge that is easy to take in and remember. It is a "daily vitamin" for Twitterers.</div></p>
 
+		<p><a href="#demo3" class="ghost-button" data-toggle="collapse"><span class="termName">Drunktwittering</span></a>
+		<div id="demo3" class="collapse">
+		is the act of posting on Twitter while intoxicated.</div></p>
+
+		<p><a href="#demo8" class="ghost-button" data-toggle="collapse"><span class="termName">Hashtag</span></a>
+		<div id="demo8" class="collapse">
+		is a way of organizing your updates for Twitter search engines. Users prefix a message with a community-driven hashtag to enable others to discover relevant posts. One commonly used hashtag is #followfriday where users network by providing the names of their favourite people to follow on Twitter.</div> </p>
+
+		<p><a href="#demo19" class="ghost-button" data-toggle="collapse"><span class="termName">Retweet</span></a>
+	  <div id="demo19" class="collapse">
+		abbreviated as RT, is used on Twitter to show you are tweeting something that was posted by another user. The format is RT @username where username is the Twitter name of the person you are retwitting.</div></p>
   </div>
 
 

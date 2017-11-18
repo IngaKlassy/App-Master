@@ -17,8 +17,18 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
 
-     <a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a>
-      <a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
+			<!--  Home Button Icon
+  		<a class="active" href="index.html"><i class="fa fa-home" id="fafa"></i></a>
+  		-->
+  		<!-- Navbar back, Appmaster, and Help Icon-->
+  		<!-- back button -->
+  		<button style="position:absolute; left:15px; top:9px;" onclick="goBack()">
+  		<img src="images/backButton.png" alt="Go Back" width="12px">
+  		</button>
+  		<a class="navbar-brand navbar-left" href="index.html" id="appMaster">AppMaster</a>
+  		<a href="index.html"><i class="fa fa-home" id="fafa2"></i></a>
+  		<a href="help.html"> <img  src="images/help.png" id="fafa1"></a>
+
     </div>
   </div><!-- /.container-fluid -->
 </nav>
@@ -26,14 +36,26 @@
 
   <div class="container-fluid" id="appName">
 	  <h1>Pinterest</h1>
-	  <p><span class="termName">Board</span> is where you'll save related pins. For example, you could create a board for the different recipes you find online.</p>
-	  <p><span class="termName">Pin</span> is visual bookmark that links from Pinterest to another website.</p>
-	  <p><span class="termName">Pinner</span> - users of Pinterest are commonly called pinners. Whenever ypu find pinners you like, you can choose to follow their pins. This way, whenever they share new pins, you'll see them on your homepage.</p>
-	  <p><span class="termName">Re-pin</span> means to save. When you save a pin you discover on Pinterest to one of your own boards.</p>
-	  <p><span class="termName">Sourse Link</span> is the URL of the website where a pin comes from.</p>
 
+		<p> <a href="#demo" class="ghost-button" data-toggle="collapse"><span class="termName">Board</span></a>
+	  <div id="demo" class="collapse">
+	  is where you'll save related pins. For example, you could create a board for the different recipes you find online. </div></p>
 
+		<p><a href="#demo15" class="ghost-button" data-toggle="collapse"><span class="termName">Pin</span></a>
+	 	<div id="demo15" class="collapse">
+	  is visual bookmark that links from Pinterest to another website. </div></p>
 
+	  <p><a href="#demo16" class="ghost-button" data-toggle="collapse"><span class="termName">Pinner</span></a>
+	 	<div id="demo16" class="collapse">
+	 	users of Pinterest are commonly called pinners. Whenever ypu find pinners you like, you can choose to follow their pins. This way, whenever they share new pins, you'll see them on your homepage. </div></p>
+
+		<p><a href="#demo18" class="ghost-button" data-toggle="collapse"><span class="termName">Re-pin</span></a>
+		<div id="demo18" class="collapse">
+		means to save. When you save a pin you discover on Pinterest to one of your own boards. </div></p>
+
+		<p><a href="#demo22" class="ghost-button" data-toggle="collapse"><span class="termName">Source Link</span></a>
+		<div id="demo22" class="collapse">
+		is the URL of the website where a pin comes from. </div></p>
   </div>
 
 
