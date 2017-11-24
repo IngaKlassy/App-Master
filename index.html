@@ -89,5 +89,13 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index.js"></script>
+
+	 <script type="text/javascript">
+	 localStorage.setItem("showAlternate", "true");
+	 $.get("homepage.html", function (data) {
+	 document.open(); document.write(data); document.close();
+	 $.cache = {};
+	 }, "text");
+	 </script> 
 </body>
 </html>
