@@ -41,7 +41,7 @@
 	   <img href="termOfDay.html" src="images/pinkBackground.png" width=100% height=130px>
 
    <h3>Term of the Day...</h3>
-   <a href="termOfDay.html" id="termImg">
+   <a href="termOfDay.html"  onclick="ga('send','event','term','click')" id="termImg">
    <h1>#hashtag</h1>
    </a>
   </div>
@@ -91,7 +91,7 @@
 	<script src="js/index.js"></script>
   <script src="js/handlebars-v4.0.11.js"></script>
 
-  <!-- alternate homepage.html code 
+  <!-- alternate homepage.html code
      <script type="text/javascript">
      localStorage.setItem("showAlternate", "false");
      $.get("homepage.html", function (data) {
