@@ -36,10 +36,10 @@
 </nav>
 
 
-  <div>
+<script id="entry-template" type="text/x-handlebars-template">
   {{#if showAlternate}}
   <div class="container-fluid" id="term">
-     <h4>Learn the most popular termz used in most apps today!</h4>
+     <h4>Learn the most popular terms used in most apps today!</h4>
      <h2>Term of the Day...</h2>
      <a href="termOfDay.html" class="btn btn-default" class="termButton" id="termButton">#hashtag</a>
   </div>
@@ -61,7 +61,11 @@
    <h2>Browse terms by app:</h2>
     </div>
 {{/if}}
-</div>
+</script>
+
+  <div id="termofDayDesign">
+    <!-- displays term of day homepage design based on showAlternate-->
+  </div>
 
   <div class="container-fluid" id="listApps">
 	  <a href="facebook.html" class="fa fa-facebook" style="text-align: center;"> &emsp;Facebook</a>

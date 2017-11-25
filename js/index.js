@@ -4,28 +4,41 @@ function goBack() {
 }
 
 
-if ("ga" in window) {
- tracker = ga.getAll()[0];
- if (tracker)
- tracker.send('event', 'button', 'click');
-}
 
 $(document).ready(function() {
+
     $("#myModal").click(function() {
         $(':input','#suggestTerm').val("");
     });
+
+  var source   = $("#entry-template").html();
+  console.log(source);
+  var showAlternate = JSON.parse(localStorage.getItem("showAlternate"));
+  console.log(showAlternate);
+  var template = Handlebars.compile(source);
+  var alternate = {'showAlternate': showAlternate};
+  $("#termofDayDesign").html(template(alternate));
+
 });
 
 
 
 $(".termImage").click(function()
 {
+  gtag('event', 'click',
+  {
+      'event_category': 'engagement',
+      'event_label':  'orignalTermofDay'
+  });
   console.log("clicked Term of Day Image");
-  tracker.send('event', 'jsIndex', 'click');
 });
 
 $(".termButton").click(function()
 {
+  gtag('event', 'click',
+  {
+      'event_category': 'engagement',
+      'event_label':  'redesignTermofDay'
+  });
   console.log("clicked Term of Day Button");
-  tracker.send('event', 'jsIndex2', 'click');
 });
