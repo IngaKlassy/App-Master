@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
 
-$(".termImage").click(function()
+$("#termImg").click(function()
 {
   gtag('event', 'click',
   {
@@ -33,7 +33,17 @@ $(".termImage").click(function()
   console.log("clicked Term of Day Image");
 });
 
-$(".termButton").click(function()
+$("#termText").click(function()
+{
+  gtag('event', 'click',
+  {
+      'event_category': 'engagement',
+      'event_label':  'orignalTermofDay'
+  });
+  console.log("clicked Term of Day Image");
+});
+
+$("#term").click(function()
 {
   gtag('event', 'click',
   {
