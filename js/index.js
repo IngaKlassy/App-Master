@@ -12,9 +12,7 @@ $(document).ready(function() {
     });
 
   var source   = $("#entry-template").html();
-  console.log(source);
   var showAlternate = JSON.parse(localStorage.getItem("showAlternate"));
-  console.log(showAlternate);
   var template = Handlebars.compile(source);
   var alternate = {'showAlternate': showAlternate};
   $("#termofDayDesign").html(template(alternate));
@@ -40,10 +38,10 @@ $("#termText").click(function()
       'event_category': 'engagement',
       'event_label':  'orignalTermofDay'
   });
-  console.log("clicked Term of Day Image");
+  console.log("clicked Term of Day text");
 });
 
-$("#term").click(function()
+$("#termButton").click(function()
 {
   gtag('event', 'click',
   {
