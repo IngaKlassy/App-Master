@@ -21,6 +21,26 @@ $(document).ready(function() {
 
 
 
+function originalTermofDay()
+{
+  gtag('event', 'click',
+  {
+      'event_category': 'engagement',
+      'event_label':  'orignalTermofDay'
+  });
+  console.log("clicked Term of Day Image");
+}
+
+function redesignTermofDay()
+{
+  gtag('event', 'click',
+  {
+      'event_category': 'engagement',
+      'event_label':  'redesignTermofDay'
+  });
+  console.log("clicked Term of Day Button");
+}
+
 $("#termImg").click(function()
 {
   gtag('event', 'click',
